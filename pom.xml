@@ -10,14 +10,16 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>Challenge1</module>
+        <module>KotlinBasics</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
-        <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
+        <maven.compiler.version>3.8.1</maven.compiler.version>
         <junit.version>5.10.0</junit.version>
         <kotlin.version>1.9.22</kotlin.version>
     </properties>
@@ -80,6 +82,11 @@
                             <version>${junit.version}</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.compiler.version}</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-failsafe-plugin</artifactId>
