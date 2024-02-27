@@ -1,5 +1,7 @@
 package academy.learnprograming.challenge2
 
+import academy.learnprograming.functions.upperFirstAndLast
+
 @Suppress("UNUSED_VARIABLE")
 fun main() {
     val floatVar = -3847.384f
@@ -17,6 +19,7 @@ fun main() {
     val lowercase = x?.lowercase() ?: "I'm give up"
 
     val y: String? = "I AM UPPERCASE"
+    println(y?.upperFirstAndLast())
 
     val lowercase1 = y?.let { it.replace("i am", "I'm not").lowercase() }
 
