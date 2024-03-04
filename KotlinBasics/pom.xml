@@ -12,10 +12,7 @@
 
     <artifactId>KotlinBasics</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>AnotherModule</module>
-    </modules>
+    <packaging>jar</packaging>
 
     <repositories>
         <repository>
