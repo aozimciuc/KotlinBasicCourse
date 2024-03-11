@@ -1,0 +1,33 @@
+lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 1.  The first thing you need to do is to create a new project in Visual Studio.
+ 2.  Then, you need to add a new class to the project.
+ 3.  After that, you need to add the following code to the class:
+ public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+ 4.  Finally, you need to build the project and run it.
+ 5.  When you run the project, you should see the following output:
+ Hello, World!
+ As you can see, the program prints “Hello, World!” to the console.
+ Conclusion
+ In this article, we have learned how to create a simple “Hello, World!” program in C#. We have also learned how to create a new project in Visual Studio, add a new class to the project, and run the program.
+ I hope you found this article helpful. If you have any questions or comments, please let me know in the comment section below.
+ Happy coding!
+ Related Articles
+ How to Create a Simple “Hello, World!” Program in Python
+ How to Create a Simple “Hello, World!” Program in Java
+ How to Create a Simple “Hello, World!” Program in C++
+ How to Create a Simple “Hello, World!” Program in JavaScript
+ How to Create a Simple “Hello, World!” Program in PHP
+ How to Create a Simple “Hello, World!” Program in Ruby
+ How to Create a Simple “Hello, World!” Program in Swift
+ How to Create a Simple “Hello, World!” Program in Kotlin
+ How to Create a Simple “Hello, World!” Program in Go
+ How to Create a Simple “Hello, World!” Program in Rust
+ How to Create a Simple “Hello, World!” Program in TypeScript
+ How to Create a Simple “Hello, World!” Program in Dart
+ How to Create a Simple “
